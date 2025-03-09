@@ -524,8 +524,11 @@ footer {
 }
 
 @media screen and (max-width: 480px) {
+    h1{
+        width: auto;
+    }
     #phone {
-        margin: 5em 0em 5em 9em;
+        margin: 5em 0em 5em 7em;
         width: 191px;
         height: 341px;
     }
@@ -536,5 +539,20 @@ footer {
     .tarjeta-dos,
     .tarjeta-tres{
         width: 73%;
+    }
+    .mobil{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        padding: 10px 0px;
+    }
+    .menu-horizontal,
+    .btn{
+        margin-top: 10px;
+        margin-left: 194px;
+    }
+    #logoP{
+        position: absolute;
+        left: 40px;
     }
 }
