@@ -1,0 +1,507 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(30, 23, 47);
+}
+
+.mobil {
+    display: none;
+    background-color: rgb(30, 23, 47);
+}
+
+div .links {
+    display: flex;
+    align-items: center;
+    list-style: none;
+
+}
+
+a {
+    margin: 0 32px;
+    color: rgb(173, 173, 173);
+    text-decoration: none;
+    font-size: 15px;
+}
+
+a:hover {
+    color: white;
+}
+
+.btn {
+    font-size: 14px;
+    border-radius: 6px;
+    border: none;
+    background-color: cyan;
+    cursor: pointer;
+    padding: 18px 40px;
+    color: white;
+    background: linear-gradient(90deg, rgb(136, 63, 213), rgb(12, 123, 213));
+}
+
+.productP {
+    display: flex;
+}
+
+.izquierda {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(46, 37, 80);
+    color: white;
+}
+
+h1 {
+    margin-top: 183px;
+    font-size: 55px;
+    width: 31%;
+}
+
+#parrafo1 {
+    font-size: 18px;
+    width: 43%;
+    margin: 42px 0px;
+    position: relative;
+    left: 60px;
+}
+
+.botonesP {
+    padding: 5px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 7px;
+    position: relative;
+    right: 5px;
+    margin-bottom: 117px;
+}
+
+#btnP {
+    border: none;
+    border-radius: 2px;
+    color: rgb(241, 56, 150);
+    padding: 12px 27px;
+    cursor: pointer;
+}
+
+#btnS {
+    cursor: pointer;
+    border: none;
+    border: 2px solid white;
+    color: white;
+    border-radius: 4px;
+    padding: 12px 27px;
+    background-color: transparent;
+
+}
+
+.derecha {
+    background-image: url(assets/hojasFondo.jpg);
+    background-size: cover;
+    width: 50%;
+}
+
+#phone {
+    height: 437px;
+    width: 226px;
+    margin: 8em 0em 3em 12em;
+}
+
+.central {
+    background-color: rgb(241, 242, 247);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    margin: 52px;
+    font-size: 40px;
+    color: rgb(244, 20, 134);
+}
+
+.imgInf {
+    display: flex;
+}
+
+.imagenD {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 50%;
+}
+
+.infoD {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    position: relative;
+    right: 68px;
+}
+
+h3 {
+    position: relative;
+    right: 20px;
+    font-size: 32px;
+    color: rgb(196, 73, 137);
+}
+
+#parrafo2 {
+    width: 46%;
+    margin-top: 42px;
+    margin-bottom: 22px;
+
+}
+
+.contenedor-listas {
+    position: relative;
+    right: 54px;
+}
+
+.checklist {
+    list-style: none;
+}
+
+.marketing {
+    color: #ff1493;
+    font-weight: bold;
+}
+
+.checklist .marketing::before {
+    content: "—";
+    margin-right: 6px;
+    color: #ff1493;
+    font-weight: bold;
+}
+
+.checklist li,
+.marketing li {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.checklist li::before {
+    content: '✔';
+    color: #ff1493;
+    margin-right: 6px;
+    font-weight: bold;
+}
+
+#laptop {
+    height: 297px;
+    width: 470px;
+    margin-bottom: 56px;
+}
+
+.plans-pricing {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(31, 23, 47);
+}
+
+h4 {
+    font-size: 30px;
+    margin-top: 29px;
+    margin-bottom: 40px;
+}
+
+#text-uno {
+    width: 30%;
+    text-align: center;
+    color: rgb(170, 166, 181);
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.tarjetas {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.tarjeta-uno,
+.tarjeta-dos,
+.tarjeta-tres {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    margin: 43px 0px 36px 21px;
+}
+
+.tarjeta-uno,
+.tarjeta-dos,
+.tarjeta-tres {
+    width: 15%;
+}
+
+.name-price {
+    color: rgb(150, 148, 148);
+    font-size: 13px;
+    position: relative;
+    bottom: 10px;
+}
+
+.parrafo {
+    text-align: center;
+    width: 69%;
+    padding-top: 33px;
+    padding-bottom: 23px;
+}
+
+.negrilla {
+    font-size: 22px;
+    background-color: rgb(240, 238, 238);
+    width: 100%;
+    text-align: center;
+    padding-top: 13px;
+    padding-bottom: 17px;
+}
+
+.negrilla-uno,
+#negrilla-rosa {
+    padding-bottom: 14px;
+}
+
+.negrilla-uno {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#negrilla-rosa {
+    color: rgb(212, 71, 139);
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.checklist-dos {
+    padding-top: 18px;
+    list-style: none;
+}
+
+.checklist-dos li::before {
+    content: "✔";
+    padding-right: 32px;
+    font-weight: bold;
+}
+
+.checklist-dos .estrella::before {
+    content: "★";
+    padding-right: 32px;
+    font-weight: bold;
+}
+
+.checklist-dos .equis::before {
+    content: "x";
+    padding-right: 32px;
+    font-weight: bold;
+}
+
+#rosa li::before {
+    color: #ff1493;
+}
+
+.checklist-dos #black::before {
+    color: black;
+}
+
+.recuadro-boton {
+    background-color: rgb(240, 238, 238);
+    width: 100%;
+    text-align: center;
+}
+
+.btn-suscribe {
+    border: none;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(46, 37, 82);
+    padding: 21px 50px;
+    border-radius: 4px;
+    margin: 6px 6px;
+}
+
+#btn-rosa {
+    background: linear-gradient(90deg, rgb(218, 134, 185), rgb(221, 29, 163));
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+    padding: 26px 26px;
+}
+
+.imagen-footer {
+    height: 20px;
+    margin-left: 13px;
+}
+
+#nombre {
+    color: #ff1493;
+}
+
+@media screen and (max-width: 1279px) {
+
+    .tarjeta-uno,
+    .tarjeta-dos,
+    .tarjeta-tres {
+        width: 20%;
+    }
+}
+
+@media screen and (max-width:920px) {
+
+    .tarjeta-uno,
+    .tarjeta-dos,
+    .tarjeta-tres {
+        width: 25%;
+    }
+
+    .checklist {
+        position: relative;
+        left: 39px;
+    }
+
+    #phone {
+        margin: 8em 0em 3em 9em;
+    }
+
+    #laptop {
+        width: 440px;
+    }
+
+    #parrafo1 {
+        width: 58%;
+    }
+
+    h1 {
+        width: 60%;
+    }
+
+    #parrafo1 {
+        width: 79%;
+        position: relative;
+        left: 40px;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    a {
+        margin: 0 19px;
+    }
+
+    .header {
+        display: none;
+    }
+
+    .mobil {
+        display: block;
+    }
+
+    .mobil {
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+    }
+
+    .menu-horizontal {
+        list-style: none;
+    }
+
+    .menu-horizontal > li > a {
+        display: block;
+        color: white;
+        font-weight: bold;
+        padding: 5px 20px;
+    }
+
+    .menu-horizontal>li:hover {
+        background-color: rgb(30, 23, 47);
+    }
+    .btn{
+        margin-left: 274px;
+    }
+    .menu-vertical {
+        position: absolute;
+        display: none;
+        list-style: none;
+        font-weight: bold;
+        width: 112px;
+        background-color: rgb(44, 44, 43);
+    }
+
+    .menu-horizontal li:hover .menu-vertical {
+        display: block;
+    }
+    .menu-vertical li:hover{
+        background-color: black;
+    }
+
+    .logoP {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    #phone {
+        margin: 8em 0em 3em 6em;
+    }
+
+    #laptop {
+        height: 270px;
+        width: 360px;
+    }
+
+    h1 {
+        width: 60%;
+    }
+
+    #parrafo1 {
+        width: 80%;
+        position: relative;
+        left: 23px;
+    }
+
+    .infoD {
+        position: relative;
+        left: 7px;
+        width: 44%;
+    }
+
+    .botonesP {
+        display: flex;
+        flex-direction: column;
+        margin-left: 5px;
+    }
+
+    #btnP {
+        margin-bottom: 5px;
+    }
+
+    .tarjeta-uno,
+    .tarjeta-dos,
+    .tarjeta-tres {
+        width: 27%;
+    }
+
+    .btn-suscribe {
+        padding: 15px 30px;
+    }
+}
+
+@media screen and (max-width: 480px) {}
